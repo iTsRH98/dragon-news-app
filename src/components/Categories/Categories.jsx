@@ -9,7 +9,7 @@ const Categories = () => {
 
   return (
     <div>
-      <h1 className="font-bold">All Categories</h1>
+      <h1 className="font-bold text-center my-4 text-xl">All Categories</h1>
       <div className="grid grid-cols-1 my-5 gap-3">
         {categories.map((category) => (
           <NavLink
